@@ -4,10 +4,10 @@ getgenv().Config = {
  
     ["Webhook"] = {
         ["Tags"] = {
-            "User Id",
+            "1254608435597545523",
         },
  
-        ["URL"] = "Webhook Link "
+        ["URL"] = "https://discord.com/api/webhooks/1300379075143274496/TaAesSJM-wQ6UKyIETWe58mKHr-xv_X9nwXPSswW955vroeNyYVwX5drEoyS0sslUw3f"
     },
  
     ["LOWGRAPHIC"] = true
