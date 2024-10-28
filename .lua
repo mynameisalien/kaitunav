@@ -1,14 +1,16 @@
-local json = game:GetService("HttpService")
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-
-getgenv().SettingFarm = {
-    Equipment = {
-        Enable = true,
-        Units = { "Itochi", "Kinaru", "Goi" },
-        BackupUnits = { "Cha-In", "Song Jinwu", "Itochi", "Kinaru", "Goi", "Grim Wow", "Kinnua", "Aligator", "Sanjo", "Roku", "Vogita", "Luffo", "Jon", "Pickleo", "Noruto" }
+getgenv().Config = {
+    ["StarterUnit"] = "Luffo", -- "Luffo", "Roku", "Ichiga"
+    -- ["BackToLobbyEvery"] = 0, -- x Is Minutes
+ 
+    ["Webhook"] = {
+        ["Tags"] = {
+            "User Id",
+        },
+ 
+        ["URL"] = "Webhook Link "
     },
-    Codes = { "300KPLAYERS", "800KLIKES", "100MVISITS" },
-    PositionFile = "placed_positions.json"
+ 
+    ["LOWGRAPHIC"] = true
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/junggamyeon/MyScript/refs/heads/main/Kaitun_AV.lua"))()
+_G.Key = "Anime Vanguard";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
